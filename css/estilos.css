@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.bg-light{
+    background-color: rgba(227, 192, 149, 0.61)!important;
+}
+/*index*/
+.vidriera img{
+   width: 400px;
+   height: 400px;
+}
+/*galeria*/
+.tapa-libros{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f5f5dc;
+    
+}
+.tapa-libros div{
+    padding: 10px;
+    justify-content: center;
+}
+
+.tapa-libros div img{
+    width: 200px;
+    height: 300px;
+    border-radius: 1rem;
+    transition-timing-function: ease;
+}
+.tapa-libros div p{
+    font-size: 15px;
+    color: #000000;
+
+}
+.tapa-libros div img:hover{
+    width: 250px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+/*relatos*/
+.relatos{
+    display: flex;
+    flex-direction: column;
+}
+.relatos div{
+    border: solid 2px #000000;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: rgba(245, 245, 220, 0.715);
+}
+
+
+.relatos div p:hover{
+    color: hsl(308, 89%, 38%) !important;
+}
+/*footer*/
+footer{
+    margin: 100px 20px 10px 10px !important;
+}
