@@ -1,11 +1,12 @@
+@import "variables";
 @import "body";
 @import "nav";
 @import "main";
+@import "section";
 @import "footer";
-@import "header";
+@import "index";
+@import "relatos";
+@import "galeria";
+@import "contacto";
+@import "ayuda";
 
-/* variables*/
-
-
-$spacing-1: 10px;
-$color-1: rgba(131, 204, 131, 0.438);
