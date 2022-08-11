@@ -75,6 +75,32 @@ body {
   margin: 10px;
   padding: 10px; }
 
+/*
+@media screen and (max-width:640px){
+
+    nav {
+        width: 100vw;
+        height: 100px;
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.026),rgba(0, 0, 0, 0.092)) , url(../img/pexels-pixabay-159711.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+                    
+        ul {
+                li{
+                    color:#000000;
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 18px;
+                    margin: 5px;
+                    padding: 5px; 
+                }
+            }
+        }
+
+}*/
 .titulo-page {
   color: white;
   background-color: #000000;
@@ -85,7 +111,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(227, 104, 209, 0.105);
   width: 100vw;
   height: 100px;
   padding: 20px;
