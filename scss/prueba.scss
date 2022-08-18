@@ -4,4 +4,10 @@
 @import "galeria";
 @import "contacto";
 @import "ayuda";
+div {
+    background-color: aliceblue;
 
+    p {
+        font-size: 8px;
+    }
+}
